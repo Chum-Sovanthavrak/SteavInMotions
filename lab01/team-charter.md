@@ -1,0 +1,1 @@
+# Team charter · SteavInMotions (v1.0, 2026-10-16)
