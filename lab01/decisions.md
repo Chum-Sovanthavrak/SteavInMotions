@@ -1,0 +1,1 @@
+# Decision log · SteavInMotions (v0.1, 2026-10-16)
