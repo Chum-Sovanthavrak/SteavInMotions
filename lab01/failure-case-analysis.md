@@ -47,7 +47,7 @@ E --> F["Orbiter lost during Mars orbit insertion"]
 
 ## 6. Lessons for ITC Club Hub
 1. Our CSV files will have a fixed format written in the README (for example, date as `YYYY-MM-DD HH:MM` and capacity as a whole number from 1 to 500). The program rejects any file that does not match, so a wrong format cannot slip through unnoticed like the MCO unit error.
-2. The 24-hour cancellation rule will be written in one function only, `canCancel(event, now)`, with a test for exactly 24 hours before the start. If the rule changes, we change it in one place.
+2. Any bug or doubt about the code or the data must be written as a GitHub Issue within 24 hours, not only mentioned in chat. At the end of each week, we check that every issue has an owner, so a warning cannot get lost like the MCO navigation team's concerns.
 ## 7. Sources
 1. NASA, Mars Climate Orbiter Mishap Investigation Board, Phase I Report, 10 November 1999, https://llis.nasa.gov/llis_lib/pdf/1009464main1_0641-mr.pdf (primary)
 2. NASA, Mars Climate Orbiter Mishap Investigation Board, Phase II Report, 2000, https://discovery.larc.nasa.gov/PDF_FILES/mars_climate_orbiter_phaseII.pdf (primary)
