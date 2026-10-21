@@ -5,8 +5,9 @@ Authors: Ty Vannavuth
 Mars Climate Orbiter(MCO) was a $125 million robotic space probe launched by NASA on December 11, 1998, to study the Martian climate, atmoshere,and surface changes.It also had another job whic is to relaying radio communications for its sister mission, the Mars Polar Lander, which was due to land in December 1999.
 After about nine and a half months of cruise, MCO was set to enter orbit around Mars. It would then spend weeks skimming the upper atmosphere (aerobraking) to settle into a lower orbit. The people relying on the software were the flight operations, navigation and science teams. The failure mattered because the mission was lost at its most critical moment, and because NASA were about to land the Polar Lander,they only had a few weeks to learn why the MOC failed and make sure the polar lander woild not meet the same failre.
 
-# 2. Timeline
+## 2. Timeline
 |    Date  |   Event  |
+|----------|----------|
 |1998-12-11|The MCO is launched from Cape Canaveral.|
 |1999-04   |The MCO is in cruise phase, and the navigation team is using the spacecraft's telemetry data to determine its trajectory.|
 |1999-09-08|The last planned course correction(TMC-4) is completed which aimed for the closest approach to mars of 226 Km.|
