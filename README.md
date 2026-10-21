@@ -7,8 +7,9 @@ Cambodia. Course project, Introduction to Software Engineering.
 ## Team
 |          Member          |           GitHub          | Role (Sprint 1) |
 |--------------------------|---------------------------|-----------------|
-| Phorst Chan Sereywattana | @Phorst-Chan-Sereywattana | Product Owner   |
-| Chum Sovanthavrak        | @Chum-Sovanthavrak        | Scrum Master    |
+| Phorst Chan Sereywattana | @Phorst-Chan-Sereywattana |  Product Owner  |
+| Chum Sovanthavrak        | @Chum-Sovanthavrak        |  Scrum Master   |
+| Ty Vannavuth             | @TyVannavuth-pixel        |  Developer      |
 <!-- each member adds their own row in their own commit -->
 
 ## Repository layout
