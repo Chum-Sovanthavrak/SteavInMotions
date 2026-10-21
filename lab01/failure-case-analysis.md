@@ -11,7 +11,7 @@ After about nine and a half months of cruise, MCO was set to enter orbit around 
 |1998-12-11|The MCO is launched from Cape Canaveral.|
 |1999-04   |The MCO is in cruise phase, and the navigation team is using the spacecraft's telemetry data to determine its trajectory.|
 |1999-09-08|The last planned course correction(TMC-4) is completed which aimed for the closest approach to mars of 226 Km.|
-|1999-09-15|The paln is excecuted.|
+|1999-09-15|The plan is excecuted.|
 |1999-09-23|The orbit-insertion burn starts at 09:00:46 UTC. Radio contact is lost behind Mars at 09:04:52 UTC, 49 seconds earlier than predicted, and never returns.|
 |1999-09-29|Engineers find that the thruster data was in pound-force seconds instead of the specified Newton-seconds, so the effect was underestimated by a factor of 4.45.|
 |1999-10-15|NASA sets up the Mishap Investigation Board.|
@@ -46,8 +46,8 @@ E --> F["Orbiter lost during Mars orbit insertion"]
 | R4 | Track every discrepancy as a formal issue with an owner, not in email or chat | Ch10  |
 
 ## 6. Lessons for ITC Club Hub
-1. The cancellation rule closes 24 hours before an event starts, so all time arithmetic will live in one function, canCancel(event, now), built on std::chrono types, with unit tests for exactly 24 h, 24 h minus 1 minute and 24 h plus 1 minute.
-1. The CSV file format is our interface specification: we will document column names, units and date format in the repository, the importer will reject any file whose header or date format differs, and a round-trip test will write a file with one module and read it with another.
+1. Our CSV files will have a fixed format written in the README (for example, date as `YYYY-MM-DD HH:MM` and capacity as a whole number from 1 to 500). The program rejects any file that does not match, so a wrong format cannot slip through unnoticed like the MCO unit error.
+2. The 24-hour cancellation rule will be written in one function only, `canCancel(event, now)`, with a test for exactly 24 hours before the start. If the rule changes, we change it in one place.
 ## 7. Sources
 1. NASA, Mars Climate Orbiter Mishap Investigation Board, Phase I Report, 10 November 1999, https://llis.nasa.gov/llis_lib/pdf/1009464main1_0641-mr.pdf (primary)
 2. NASA, Mars Climate Orbiter Mishap Investigation Board, Phase II Report, 2000, https://discovery.larc.nasa.gov/PDF_FILES/mars_climate_orbiter_phaseII.pdf (primary)
